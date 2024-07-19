@@ -1,0 +1,10 @@
++
+{ config, lib, pkgs, inputs, ... }:
+
+{
+  home-manager.users."TheHyperZtar" = {...}: {
+    programs.btop = { 
+      enable = true; 
+    };
+  };
+}
